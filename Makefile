@@ -1,6 +1,6 @@
 NAME = minishell
 
-LIBFT_DIR = Libft
+LIBFT_DIR = libft
 GNL_DIR = get_next_line
 LIBFT = $(LIBFT_DIR)/libft.a
 GNL = $(GNL_DIR)/gnl.a

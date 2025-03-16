@@ -6,13 +6,13 @@
 /*   By: yrachidi <yrachidi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/31 13:47:20 by yrachidi          #+#    #+#             */
-/*   Updated: 2024/11/02 11:02:25 by yrachidi         ###   ########.fr       */
+/*   Updated: 2025/03/15 23:57:03 by yrachidi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static unsigned int	ft_number_of_divisions(unsigned int n, int base)
+static unsigned int	ft_number_of_divisions( int n, int base)
 {
 	unsigned int	num;
 
@@ -34,7 +34,7 @@ static unsigned int	ft_number_of_divisions(unsigned int n, int base)
 char	*ft_itoa(int n)
 {
 	char			*integer;
-	unsigned int	num;
+	 int	num;
 	int				len;
 
 	num = n;
